@@ -475,7 +475,7 @@ right;padding-left: 10px;text-align: left;border-left: 1px solid #bebebe; min-he
     padding: 0;
     float: left;
     max-width: 75%;
-    background: #fff;
+    background: #f0f0f0;
     height: 709px;
 }
 .product-more-views{
@@ -514,11 +514,14 @@ right;padding-left: 10px;text-align: left;border-left: 1px solid #bebebe; min-he
     cursor: pointer;
     text-align: center;
     position: relative;
-    background: #fff;
+    background: #000;
 }
 .product-image-box label:hover { cursor: pointer;}
 #gal1:checked ~ .product-more-views ul li #lg1, #gal2:checked ~ .product-more-views ul li #lg2, #gal3:checked ~ .product-more-views ul li #lg3, #gal4:checked ~ .product-more-views ul li #lg4, #gal5:checked ~ .product-more-views ul li #lg5, #gal6:checked ~ .product-more-views ul li #lg6, #gal7:checked ~ .product-more-views ul li #lg7, #gal8:checked ~ .product-more-views ul li #lg8, #gal9:checked ~ .product-more-views ul li #lg9, #gal10:checked ~ .product-more-views ul li #lg10, #gal11:checked ~ .product-more-views ul li #lg11, #gal2:checked ~ .product-more-views ul li #lg12 { opacity: 1;filter: 1;}
 #gal1:checked ~ #content1, #gal2:checked ~ #content2, #gal3:checked ~ #content3, #gal4:checked ~ #content4, #gal5:checked ~ #content5, #gal6:checked ~ #content6, #gal7:checked ~ #content7, #gal8:checked ~ #content8, #gal9:checked ~ #content9, #gal10:checked ~ #content10, #gal11:checked ~ #content11, #gal12:checked ~ #content12 { display: inline-block;}
+
+
+/* SIDE IMAGES */
 .product-more-views img { bottom: 0;
 	left: 0;
 	margin: auto;
@@ -527,6 +530,7 @@ right;padding-left: 10px;text-align: left;border-left: 1px solid #bebebe; min-he
 	position: absolute;
 	right: 0;
 	top: 0;}
+
 .product-image-container img { bottom: 0;
 	left: 0;
 	margin: auto;
